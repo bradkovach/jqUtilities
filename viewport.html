@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jqUtilities.viewport.js"></script>
+
+<style>
+	.block{
+		display: block;
+		float: left;
+	}
+</style>
+
+</head>
+<body>
+
+	<div class="block js-vh js-vw" data-vh="75" data-vw="75" style="background: #f00;">
+		<div class="block js-margin-vcenter" style="background: #0f0">
+			<h1>This element is vertically centered</h1>
+			<p>Since it has a sibling, an error will be thrown.</p>
+		</div>
+		<div class="block js-margin-vcenter" style="background: #00f">
+			<h1>This element is vertically centered</h1>
+			<p>Since it has a sibling, an error will be thrown.</p>
+		</div>
+	</div>
+
+</body>
+</html>
